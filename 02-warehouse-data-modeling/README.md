@@ -1,7 +1,7 @@
-# 02 — Warehouse & Dimensional Data Modeling
+# Warehouse & Dimensional Data Modeling
 
-"Experience or deep understanding of data architecture and data
-modelling."
+Experience or deep understanding of data architecture and data
+modelling.
 
 ## What's here
 
