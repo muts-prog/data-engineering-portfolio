@@ -1,8 +1,5 @@
 # 06 — JSON / Non-Relational Data
 
-**JD line this targets:** "Nonrelational data (JSON format) including building, optimizing,
-debugging, and creating queries."
-
 ## What's here
 
 - `schema/reading_document_schema.json` — a JSON Schema for a reading document, where
@@ -18,17 +15,3 @@ Run:
 ```
 python scripts/validate_and_query.py
 ```
-
-## To make this real
-
-- Load the same documents into **Azure Cosmos DB** (has a free tier) or **MongoDB Atlas**
-  (free tier), and run equivalent queries there instead of SQLite's JSON1 — that's the
-  genuinely "nonrelational database" version of this exercise.
-- Add a document with a field that violates the schema (e.g. `aflatoxin_ppb: -5` or a
-  missing required field) and confirm validation actually rejects it — don't just take the
-  happy path's word for it.
-
-## How to describe this on your CV
-
-> Designed a JSON schema for semi-structured research data with variable per-record fields,
-> and built validation and query logic against it. [GitHub link]
