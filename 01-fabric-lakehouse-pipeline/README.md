@@ -1,7 +1,7 @@
 # 01 — Fabric Lakehouse Pipeline
 
-"Build data pipelines in Fabric to integrate internal and external
-data based on existing internal best practices."
+Build data pipelines in Fabric to integrate internal and external
+data based on existing internal best practices.
 
 ## What's here
 
