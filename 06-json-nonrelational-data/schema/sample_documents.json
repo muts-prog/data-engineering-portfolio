@@ -1,0 +1,39 @@
+[
+  {
+    "sample_id": "S2001",
+    "county": "Nairobi",
+    "crop": "Maize",
+    "aflatoxin_ppb": 3.4,
+    "metadata": {
+      "collection_method": "manual_swab",
+      "gps": { "lat": -1.2921, "lon": 36.8219 },
+      "sensor_readings": [
+        { "sensor_id": "TEMP-1", "reading_type": "temperature_c", "value": 27.3, "timestamp": "2026-03-01T09:15:00Z" }
+      ]
+    }
+  },
+  {
+    "sample_id": "S2002",
+    "county": "Kisumu",
+    "crop": "Groundnuts",
+    "aflatoxin_ppb": 14.1,
+    "metadata": {
+      "collection_method": "automated_probe",
+      "gps": { "lat": -0.0917, "lon": 34.7680 },
+      "sensor_readings": [
+        { "sensor_id": "TEMP-4", "reading_type": "temperature_c", "value": 31.0, "timestamp": "2026-03-02T08:00:00Z" },
+        { "sensor_id": "HUM-4", "reading_type": "humidity_pct", "value": 62.5, "timestamp": "2026-03-02T08:00:00Z" }
+      ],
+      "flagged_for_review": true
+    }
+  },
+  {
+    "sample_id": "S2003",
+    "county": "Machakos",
+    "crop": "Sorghum",
+    "aflatoxin_ppb": 1.1,
+    "metadata": {
+      "collection_method": "manual_swab"
+    }
+  }
+]

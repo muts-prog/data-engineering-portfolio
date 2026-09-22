@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AflatoxinReadingDocument",
+  "description": "A document-store shape for a reading — unlike the flat warehouse row in folder 02, this nests variable, sample-type-specific fields, which is exactly the kind of data a relational row struggles with.",
+  "type": "object",
+  "required": ["sample_id", "county", "crop", "aflatoxin_ppb", "metadata"],
+  "properties": {
+    "sample_id": { "type": "string" },
+    "county": { "type": "string" },
+    "crop": { "type": "string" },
+    "aflatoxin_ppb": { "type": "number", "minimum": 0 },
+    "metadata": {
+      "type": "object",
+      "description": "Deliberately loose — different crops and collection methods capture different extra fields, which is the whole reason to model this as a document rather than force it into fixed columns.",
+      "properties": {
+        "collection_method": { "type": "string" },
+        "gps": {
+          "type": "object",
+          "properties": {
+            "lat": { "type": "number" },
+            "lon": { "type": "number" }
+          }
+        },
+        "sensor_readings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "sensor_id": { "type": "string" },
+              "reading_type": { "type": "string" },
+              "value": { "type": "number" },
+              "timestamp": { "type": "string", "format": "date-time" }
+            }
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}
