@@ -1,6 +1,6 @@
 # 01 — Fabric Lakehouse Pipeline
 
-**JD line this targets:** "Build data pipelines in Fabric to integrate internal and external
+"Build data pipelines in Fabric to integrate internal and external
 data based on existing internal best practices."
 
 ## What's here
@@ -21,12 +21,3 @@ data based on existing internal best practices."
    that actually demonstrates "Lakehouse," not just "wrote a Python script."
 5. Optional: wrap the notebook in a **Fabric Data Pipeline** with a schedule, so it's a
    pipeline and not just a one-off notebook run.
-
-## How to describe this on your CV, once you've done step 2–5 for real
-
-> Built a data ingestion and transformation pipeline in Microsoft Fabric (Lakehouse, Delta
-> tables) to clean and structure field-collected research data, including automated data
-> quality checks. [GitHub link]
-
-Don't claim the Fabric part until you've actually run it in the Fabric portal — the local
-pandas version is the design, not the deliverable.
