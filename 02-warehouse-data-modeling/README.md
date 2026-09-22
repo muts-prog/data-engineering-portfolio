@@ -1,6 +1,6 @@
 # 02 — Warehouse & Dimensional Data Modeling
 
-**JD line this targets:** "Experience or deep understanding of data architecture and data
+"Experience or deep understanding of data architecture and data
 modelling."
 
 ## What's here
@@ -25,11 +25,3 @@ python load_and_query.py
    Python script — that's the part that's actually "production," not the schema design itself.
 3. Build one Power BI report on top of the warehouse (not the raw table) — this is what
    "data architecture that's ready for analysis" looks like in practice.
-
-## How to describe this on your CV
-
-> Designed a star-schema data warehouse (fact + dimension tables) for research monitoring
-> data and built the queries and load logic behind it. [GitHub link]
-
-If you complete step 1–3 in Fabric/Azure for real, it's fair to say "in Microsoft Fabric" —
-until then, keep the claim to the modeling and SQL itself.
