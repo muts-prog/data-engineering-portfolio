@@ -1,10 +1,4 @@
-# 03 — API Design & Security
-
-**JD line this targets:** "Solid knowledge of programming in Python, fundamentals of API
-design and security."
-
-The CV currently only shows *consuming* JSON APIs (digital analytics tags). This folder
-shows *designing and securing* one — a meaningfully different skill.
+# API Design & Security
 
 ## What's here
 
@@ -37,8 +31,3 @@ python -m pytest test_main.py -v
   you deploy this to Azure — that's the realistic production version of "never hardcode secrets."
 - Deploy it as an Azure App Service or Azure Container App, so you have a live URL to
   demo instead of just localhost.
-
-## How to describe this on your CV
-
-> Designed and built a REST API (FastAPI) with API-key authentication, input validation,
-> and automated tests, covering both read and write access patterns. [GitHub link]
