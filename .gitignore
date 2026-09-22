@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.db
+*.log
+03-api-design-security/data/readings.csv
+01-fabric-lakehouse-pipeline/data/aflatoxin_clean.csv
